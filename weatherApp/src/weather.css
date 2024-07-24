@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+body{
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(17, 17, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 350px;
+    background:linear-gradient(white ,rgb(189, 100, 241),blue);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid cornflowerblue;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.search{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+.search-icon{
+    margin:5px 20px  0 0;
+    cursor: pointer;
+}
+.search-icon img{
+    width: 20px;
+}
+.image{
+    text-align: center;
+    margin: 10px 0; 
+}
+.image img{
+    width: 160px;
+    height: 160px;
+}
+.temp,.country,.city{
+    margin-top:5px ;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.city{
+    color: rgb(238, 255, 0);
+    font-weight: 600;
+}
+.temp{
+    font-weight: 600;
+}
+.country{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.cord{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.cord div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 8px 0px rgb(255, 255, 255) inset;
+    border-radius: 10px;
+    color: aliceblue;
+    width: 100px;
+}
+.cord div span{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(238, 255, 0);
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding: 10px;
+}
+.element{
+    text-align: center;
+
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.text{
+    margin-top: 5px;
+    color: rgb(251, 255, 0);
+}
+.elementData{
+    color: aliceblue;
+    font-weight: bold;
+}
